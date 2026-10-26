@@ -1,0 +1,95 @@
+/* pengaturan dasar */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(186, 157, 119);
+    color: rgb(243, 245, 245);
+}
+header{
+    background-color: rgb(96, 161, 215);
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
+}
+header h1{
+    margin: 0 0 8px;
+
+}
+/* mavbar */
+nav {
+    background-color: rgb(32, 122, 160);
+    text-align: center;
+    padding: 15px;
+}
+nav a{
+    color: rgb(240, 244, 248);
+    text-decoration: none;
+    padding: 15px;
+}
+nav a:hover{
+    text-decoration: underline;
+
+}
+/* konten utama */
+main{
+    max-width: 1100px;
+    margin: 25px;
+    padding: 0 20px;
+}
+.banner{
+    background-color: rgb(14, 8, 8);
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+.tombol:hover{
+    background-color:rgb(44, 107, 254);
+
+}
+/* daftar produk */
+.daftar-produk{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.produk{
+    background-color:rgb(151, 172, 168);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px #15080812;
+}
+
+.harga{
+    color: rgb(73, 72, 72);
+    font-weight: bold;
+}
+.produk button{
+    background-color: rgb(55, 65, 88);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* tentang kontak */
+.tentang-kontak{
+    background-color: rgb(151, 172, 168);
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(32, 122, 160);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    margin-top: 35px;
+}
